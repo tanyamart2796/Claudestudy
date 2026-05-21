@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a simple button component with a label
+            - img [ref=e61]
+          - generic [ref=e64]:
+            - img [ref=e67]
+            - generic [ref=e72]:
+              - paragraph [ref=e74]: This is a static response. You can place an Anthropic API key in the .env file to use the Anthropic API for component generation. Let me create an App.jsx file to display the component.
+              - generic [ref=e77]: Created App.jsx
+              - separator [ref=e78]
+              - paragraph [ref=e80]: I'll create a Counter component for you.
+              - generic [ref=e83]: Created Counter.jsx
+              - separator [ref=e84]
+              - paragraph [ref=e86]: Now let me enhance the component with better styling.
+              - generic [ref=e89]: Edited Counter.jsx
+              - separator [ref=e90]
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: "Perfect! I've created:"
+                - list [ref=e98]:
+                  - listitem [ref=e99]:
+                    - strong [ref=e100]: Counter.jsx
+                    - text: "- A fully-featured counter component"
+                  - listitem [ref=e101]:
+                    - strong [ref=e102]: App.jsx
+                    - text: "- The main app file that displays the component"
+                - paragraph [ref=e103]: The component is now ready to use. You can see the preview on the right side of the screen.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e104]:
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112] [cursor=pointer]:
+              - img [ref=e113]
+              - img [ref=e115]
+              - generic [ref=e117]: components
+            - generic [ref=e120] [cursor=pointer]:
+              - img [ref=e121]
+              - generic [ref=e126]: Counter.jsx
+          - generic [ref=e128] [cursor=pointer]:
+            - img [ref=e129]
+            - generic [ref=e134]: App.jsx
+        - separator [ref=e135]
+        - code [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e143]:
+              - generic [ref=e240]: "1"
+              - generic [ref=e148]: "2"
+              - generic [ref=e242]: "3"
+              - generic [ref=e244]: "4"
+              - generic [ref=e246]: "5"
+              - generic [ref=e248]: "6"
+              - generic [ref=e164]: "7"
+              - generic [ref=e166]: "8"
+              - generic [ref=e168]: "9"
+              - generic [ref=e170]: "10"
+              - generic [ref=e172]: "11"
+              - generic [ref=e250]: "12"
+              - generic [ref=e252]: "13"
+              - generic [ref=e254]: "14"
+              - generic [ref=e256]: "15"
+              - generic [ref=e258]: "16"
+              - generic [ref=e260]: "17"
+              - generic [ref=e262]: "18"
+              - generic [ref=e264]: "19"
+              - generic [ref=e268]: "20"
+              - generic [ref=e271]: "21"
+              - generic [ref=e274]: "22"
+              - generic [ref=e276]: "23"
+              - generic [ref=e278]: "24"
+              - generic [ref=e280]: "25"
+              - generic [ref=e285]: "26"
+              - generic [ref=e287]: "27"
+              - generic [ref=e289]: "28"
+              - generic [ref=e291]: "29"
+              - generic [ref=e293]: "30"
+              - generic [ref=e295]: "31"
+              - generic [ref=e300]: "32"
+            - generic [ref=e208]:
+              - generic [ref=e452]: "import { useState } from 'react';"
+              - generic [ref=e454]: "const Counter = () => {"
+              - generic [ref=e456]: const [count, setCount] = useState(0);
+              - generic [ref=e459]: "const increment = () => {"
+              - generic [ref=e461]: setCount(count + 1);
+              - generic [ref=e463]: "};"
+              - generic [ref=e466]: "const decrement = () => {"
+              - generic [ref=e468]: setCount(count - 1);
+              - generic [ref=e470]: "};"
+              - generic [ref=e473]: "const reset = () => {"
+              - generic [ref=e475]: setCount(0);
+              - generic [ref=e477]: "};"
+              - generic [ref=e480]: return (
+              - generic [ref=e482]: <div className="flex flex-col
+              - generic [ref=e484]: items-center p-6 bg-white rounded-lg
+              - generic [ref=e486]: shadow-md">
+              - generic [ref=e488]: <h2 className="text-2xl font-bold
+              - generic [ref=e490]: mb-4">Counter</h2>
+              - generic [ref=e492]: <div className="text-4xl font-bold
+              - generic [ref=e494]: "mb-6\">{count}</div>"
+              - generic [ref=e496]: <div className="flex gap-4">
+              - generic [ref=e498]: <button
+              - generic [ref=e500]: "onClick={decrement}"
+              - generic [ref=e502]: className="px-4 py-2 bg-red-500
+              - generic [ref=e504]: text-white rounded
+              - generic [ref=e506]: hover:bg-red-600
+              - generic [ref=e508]: transition-colors"
+              - generic [ref=e510]: ">"
+              - generic [ref=e512]: Decrease
+              - generic [ref=e514]: </button>
+              - generic [ref=e516]: <button
+              - generic [ref=e518]: "onClick={reset}"
+              - generic [ref=e520]: className="px-4 py-2 bg-gray-500
+              - generic [ref=e522]: text-white rounded
+              - generic [ref=e524]: hover:bg-gray-600
+              - generic [ref=e526]: transition-colors"
+              - generic [ref=e528]: ">"
+            - textbox "Editor content" [ref=e235]: "> Increase </button> </div> </div> ); }; export default Counter;"
+  - alert [ref=e48]
+  - generic [ref=e236]:
+    - alert
+    - alert
